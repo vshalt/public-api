@@ -1,0 +1,10 @@
+.category{
+  display: flex;
+  flex-wrap: wrap;
+}
+@media(max-width: 600px) {
+  .category{
+    align-items: center;
+    justify-content: center;
+  }
+}

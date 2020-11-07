@@ -1,0 +1,45 @@
+.view-entries{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.home{
+  padding: 20px 0 0 20px; 
+}
+.home button{
+  padding: 1.5rem 3rem;
+  font-size: 1.4rem;
+  display: block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #1c1c1c;
+  color: white;
+  border-radius: 10px;
+}
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+@media (max-width: 400px){
+  h1{
+    font-size: 1.5rem;
+  }
+  h2{
+    font-size: 1.2rem;
+  }
+
+}
+@media(max-width: 950px){
+  .home{
+    padding: 20px 0 0 0;
+  }
+  .home h1, .home h2{
+    padding-left: 30px;
+  }
+  .home h2{
+padding: 10px; }
+}
